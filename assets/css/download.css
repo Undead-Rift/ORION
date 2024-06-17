@@ -1,0 +1,149 @@
+/* Section Defenses*/
+.defenses{
+	background-color: #EFECEC;
+}
+.defenses h1{
+	background:linear-gradient(to right, rgb(2, 98, 148), rgb(253,160,29,255)90%);
+	background-clip: border-box;
+	background-clip: text;
+	-webkit-background-clip: text;
+	color: transparent;
+	padding-top: 40px;
+	font-size: 36px;
+	text-align: center;
+	letter-spacing: -3px;
+	line-height: 1.2;
+	margin-bottom: 2%;
+}
+
+.defenses .col:not(:nth-child(3)){
+	margin-bottom: 4%;
+}
+
+.row{
+	justify-content: center;
+	gap: 4%;
+}
+
+@media (min-width:767px) {
+	.row {
+		display: flex;
+	}
+}
+
+.content {
+	display: flex;
+	flex-direction: column;
+}
+
+.liste-sout {
+	text-align: left;
+	font-size: 17px;
+	letter-spacing: -1px;
+	margin-left: 7%;
+
+}
+
+h2 {
+	font-size: 2rem;
+	letter-spacing: -2px;
+	text-align: center;
+	line-height: 1.1;
+	margin-bottom: 3%;
+}
+  
+
+.text-box {
+	margin-top: 10px;
+	display: flex;
+	justify-content: center;
+	background: linear-gradient(to right, rgb(2, 98, 148), rgb(253,160,29,255)90%);
+	background-clip: text;
+	-webkit-background-clip: text;
+	color: transparent;
+	border: black;
+}
+
+.bouton {
+	display: inline-block;
+	text-decoration: none;
+	color: rgb(253,160,29,255);
+	border: 2px solid rgb(0, 0, 0);
+	padding: 15px 30px;
+	font-size: 20px;
+	background: transparent;
+	position: relative;
+	cursor: pointer;
+	background: rgb(2, 98, 148);
+	font-variant: small-caps;
+	margin-top: 2%;
+}
+
+.bouton:hover {
+	border: 1px solid rgb(253,160,29,255);
+	background: rgb(253,160,29,255);
+	transition: 1s;
+}
+  a:hover {
+	color: rgb(2, 98, 148);
+  }
+
+
+  /* Section Images*/
+
+  .images-proxima{
+	background-color: #EFECEC;
+	padding: 4%;
+}
+
+  .grid{
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, auto); 
+    grid-column-gap: 10px; 
+    grid-row-gap: 10px;
+  }
+
+  @media (min-width:1001px)
+  {
+	.grid{
+		grid-template-columns: repeat(3, 1fr);
+		grid-template-rows: repeat(2, auto); 
+		grid-column-gap: 10px; 
+		grid-row-gap: 10px;
+	  }
+  }
+
+  @media (max-width:767px)
+  {
+	.grid{
+		grid-template-columns: repeat(1, 1fr);
+		grid-template-rows: repeat(6, auto); 
+		grid-column-gap: 10px; 
+		grid-row-gap: 10px;
+	  }
+  }
+
+  .grid .col{
+	padding: 4% 4% 4% 4%;
+  }
+
+  .item1 {
+	grid-row-start: 1;
+	grid-row-end: 3;
+  }
+
+  .images-proxima img{
+	cursor: pointer;
+  }
+
+
+
+
+
+
+
+.content  {
+	background-color: #EFECEC;
+
+}

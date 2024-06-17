@@ -1,0 +1,171 @@
+* {
+	line-height : 1;
+}
+
+
+.main-background{
+	position: relative;
+	background-image: url("../img/station.png");
+	background-size: cover;
+	height: 100vh;
+	background-color: transparent;
+	border: none;
+	background-position: center center;
+}
+
+
+
+@media (max-width: 1280px) {
+    .main-background {
+        height: 65vh; 
+    }
+}
+
+
+@media (max-width: 480px) {
+    .main-background {
+        height: 60vh; /* Ajustez la hauteur selon vos préférences */
+    }
+}
+
+img {
+	width: 100%;
+	height: auto;
+	display: block;
+}
+
+.text-box {
+	width: 100%;
+	position: absolute;
+	text-align: center;
+    padding-top: 15%;
+}
+
+.text-box h1 {
+	font-size: 110px;
+	background:linear-gradient(to right, rgb(2, 98, 148), rgb(253,160,29,255));
+	background-clip: text;
+	-webkit-background-clip: text;
+	color: transparent;
+    letter-spacing: -10px;
+}
+
+
+.text-box p {
+	padding-top: 5%;
+	font-size: 38px;
+	background:linear-gradient(to right, rgb(2, 98, 148), rgb(253,160,29,255));
+	background-clip: text;
+	-webkit-background-clip: text;
+	color: transparent;
+    letter-spacing: 2px;
+}
+
+
+@media (max-width:767px)
+{
+	.text-box h1 {
+		font-size: 84px;
+		line-height: 1;
+	}
+	.text-box p {
+		font-size: 37px;
+	}
+}
+
+.bouton {
+	display: inline-block;
+	text-decoration: none;
+	color: rgb(253,160,29,255);
+	border: 2px solid black;
+	padding: 15px 30px;
+	font-size: 20px;
+	background: transparent;
+	position: relative;
+	cursor: pointer;
+	background: rgb(2, 98, 148);
+	font-variant: small-caps;
+	margin-top: 2%;
+}
+
+.bouton:hover {
+	border: 1px solid #1e224c;
+	background: rgb(253,160,29,255);
+	transition: 1s;
+}
+
+
+/* Columns with infos */
+
+.column{
+	background-color: #EFECEC;
+}
+
+.col-1{
+	text-align: center;
+	letter-spacing: -1px;
+}
+
+.col-1 h3 {
+	font-size: 2rem;
+	padding-top: 5%;
+}
+	.col-1 h4 {
+		margin-top : -20px;
+		font-size : 1.75rem;
+	}
+
+.column p {
+	font-size: .95rem;
+	color: #777;
+	padding-top: 1%;
+}
+
+.column h3 {
+	font-size: 1.75rem;
+	padding-bottom: 5%;
+	letter-spacing: -1.5px;
+}
+
+.row-3 div:hover {
+	box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
+	z-index:10;
+	border: 2px solid rgb(253,160,29,255);
+}
+
+.row-3{
+	padding: 5% 5% 5% 5%;
+	margin-top : -20px;
+	text-align: center;
+}
+
+@media (min-width:767px) {
+	.row-3{
+		display: flex;
+	}
+}
+
+.row-3 div {
+	border-radius: 10px;
+	padding: 3% 4% 3% 4%;
+	background: #fff3f3;
+	transition: all 0.5s ease-out;
+}
+
+.row-3 p{
+	margin-bottom: 5%;
+}
+
+.row-3 i {
+	vertical-align: middle;
+	font-size: 12px;
+	margin-left: 5px;
+}
+
+.row-3 a{
+	color: rgb(2, 98, 148);
+}
+
+a:hover {
+	color: rgb(2, 98, 148);
+  }
